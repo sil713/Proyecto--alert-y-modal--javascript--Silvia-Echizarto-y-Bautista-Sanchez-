@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Prototipo figma</title>
+    <link rel="stylesheet" href="css/style-modal.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="header-left">
+            <ul class="navigation-menu">
+                <li>
+                    <a href="#"><img class="header-img" src="images/Microsoft Edge.png"></a>
+                </li>
+                <li>
+                    <a href="#pricing">Pricing</a>
+                </li>
+                <li>
+                    <a href="#resourcecenter">Resource center</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a class="a-moon" href="index-dark.html"><img class="header-moon" src="images/Vector.png"></a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="header-right">
+            <ul class="navigation-menu">
+                <li>
+                    <a href="#login">Login</a>
+                </li>
+                <li>
+                    <a class="header-btn" href="#">Sign up</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container-flex">
+        <section class="section-one">
+            <div class="container-text">
+                <h1>Talk to our product <br>
+                    analytic expert</h1>
+                <p class="p-space">Have questions about pricing plans, or Growthly? Fill out the form and our product
+                    analytics expert will be in touch direcity</p>
+
+                <h3>Our office</h3>
+
+                <img src="images/image (3).png" />
+                <p class="p-space">Have questions about pricing plans, or Growthly? Fill out the form and our product
+                    analytics expert will be in touch direcity</p>
+
+                <div class="container-datos">
+                    <div>
+                        <h4> United Kingdom </h4>
+                        <div class="icon-text">
+                            <div><i class="fa-solid fa-location-dot" style="color: #8c36cf;"></i></div>
+                            <div><a href="#"> 30
+                                    Eastbourne
+                                    Terrace <br>
+                                    Paddington, London <br>
+                                    W2 6LA, UK</a>
+                            </div>
+                        </div>
+                        <div class="icon-text">
+                            <div>
+                                <i class="fa-solid fa-phone" style="color: #8c36cf;"></i>
+                            </div>
+                            <div><a class="phone-bold" href="#"> +44 13 5135
+                                    1051</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>France</h4>
+                        <div class="icon-text">
+                            <div>
+                                <i class="fa-solid fa-location-dot" style="color: #8c36cf;"></i>
+                            </div>
+                            <div><a href="#"> 266
+                                    Place Ernest
+                                    Granier <br>
+                                    34000 Montpellier <br>
+                                    France</a>
+                            </div>
+                        </div>
+                        <div class="icon-text">
+                            <div><i class="fa-solid fa-phone" style="color: #8c36cf;"></i></div>
+                            <div><a class="phone-bold" href="#"> +33 5 12 18 21
+                                    86</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="section-two">
+            <form class="container-text">
+                <div class="first-lastname">
+                    <label>First Name</label>
+                    <label class="label-lastame"> Last Name</label>
+                </div>
+
+                <div class="first-lastname-two">
+                    <input type="text" required placeholder="First Name" id="first-name" />
+                    <input class="text-last" type="text" required placeholder="Last Name" id="last-name" />
+                </div>
+                <div class="email-phone">
+                    <label>Email Address</label>
+                    <input type="email" required placeholder="Email Address" id="email" />
+
+                    <label>Company Name</label>
+                    <input type="text" required placeholder="Company Name" id="company-name" />
+
+                    <label>Phone Number</label>
+                    <input type="phone" required placeholder="Phone Number" id="phone-number" />
+
+                    <label>Message</label>
+                    <textarea required placeholder="&#10;Message" id="message"></textarea>
+
+                    <button class="btn-form">Send</button>
+                </div>
+            </form>
+    </div>
+    </section>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div id="modal-data" class="modal-data-class"></div>
+            <button class="close">cerrar modal</button>
+        </div>
+    </div>
+
+
+    <script src="js.js"></script>
+
+</body>
+<script src="https://kit.fontawesome.com/46ed15a972.js" crossorigin="anonymous"></script>
+
+</html>
